@@ -11,7 +11,7 @@ export default class Navbar extends Component {
 Creative Commons (Attribution 3.0 Unported);
 https://www.iconfinder.com/Makoto_msk */}
         <Link to="/">
-          <img src={logo} className="navbar-brand" />
+          <img src={logo} alt="logo" className="navbar-brand" />
         </Link>
         <ul className="navbar-nav align-items-center">
           <li className="nav-item ml-5">
